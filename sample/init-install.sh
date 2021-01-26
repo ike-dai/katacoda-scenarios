@@ -1,1 +1,1 @@
-yum install jq
+yum install -y jq

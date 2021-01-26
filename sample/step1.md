@@ -4,8 +4,8 @@
 
 シェルスクリプトを作って実行してみる。
 
-`touch test.sh`{{execute}}
-`echo "Hello World!" > test.sh`{{execute}}
+`touch test.sh`{{execute}}  
+`echo 'echo "Hello World"' > test.sh`{{execute}}  
 
 スクリプトを実行してみる
 
@@ -14,6 +14,6 @@
 出力結果として、以下が出ていれば成功です。
 
 ```
-Hello World!
+Hello World
 ```
 

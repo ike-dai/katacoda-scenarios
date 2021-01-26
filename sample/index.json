@@ -22,7 +22,7 @@
     },
     "assets": {
       "host01": [
-        {"file": "sample.sh", "target": "~/", "chmod": "+x"}
+        {"file": "sample.sh", "target": "~/tutorial", "chmod": "+x"}
       ]
     }
   },

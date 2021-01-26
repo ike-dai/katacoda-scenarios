@@ -4,15 +4,16 @@
 
 シェルスクリプトを作って実行してみる。
 
-```
-touch test.sh
-echo "Hello World!" > test.sh
-```
+`touch test.sh`{{execute}}
+`echo "Hello World!" > test.sh`{{execute}}
 
-実行
+スクリプトを実行してみる
+
+`bash test.sh`{{execute}}
+
+出力結果として、以下が出ていれば成功です。
 
 ```
-bash test.sh
+Hello World!
 ```
-
 

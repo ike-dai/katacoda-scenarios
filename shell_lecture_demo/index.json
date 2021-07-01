@@ -23,7 +23,9 @@
     },
     "assets": {
       "host01": [
-        {"file": "sample.sh", "target": "~/tutorial", "chmod": "+x"}
+        {"file": "sample.sh", "target": "~/tutorial", "chmod": "+x"},
+        {"file": "var_echo.sh", "target": "~/tutorial", "chmod": "+x"}
+        {"file": "stdout_stderr.sh", "target": "~/tutorial", "chmod": "+x"}
       ]
     }
   },

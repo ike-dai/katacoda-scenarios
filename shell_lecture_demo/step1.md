@@ -139,15 +139,17 @@
 
 - 標準出力・標準エラー出力されるスクリプトを実行してみましょう。
 
-`./tutorial/stdout_stderror.sh`{{execute}}
+`./tutorial/stdout_stderr.sh`{{execute}}
 
 - 標準エラー出力をerror.logに出力してみましょう。
 
-`./tutorial/stdout_stderror.sh 2> error.log`{{execute}}
+`./tutorial/stdout_stderr.sh 2> error.log`{{execute}}
+
+`cat error.log`{{execute}}
 
 - 標準出力と標準エラー出力両方をoutput.logに出力してみましょう。
 
-`./tutorial/stdout_stderror.sh > output.log 2>&1`{{execute}}
+`./tutorial/stdout_stderr.sh > output.log 2>&1`{{execute}}
 
 `cat output.log`{{execute}}
 

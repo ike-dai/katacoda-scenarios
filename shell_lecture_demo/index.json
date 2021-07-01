@@ -26,7 +26,7 @@
         {"file": "sample.sh", "target": "~/tutorial", "chmod": "+x"},
         {"file": "var_echo.sh", "target": "~/tutorial", "chmod": "+x"},
         {"file": "stdout_stderr.sh", "target": "~/tutorial", "chmod": "+x"},
-        {"file": "func1.sh", "target": "~/tutorial", "chmod": "+x"}
+        {"file": "func1.sh", "target": "~/tutorial", "chmod": "+x"},
         {"file": "original.txt", "target": "~/tutorial", "chmod": "+x"}
       ]
     }

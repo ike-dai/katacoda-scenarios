@@ -1,0 +1,36 @@
+{
+  "title": "シェルスクリプト研修講義パート 実機確認シナリオ",
+  "description": "これは、シェルスクリプト研修の講義パート聴講時に実機確認するためのシナリオです。",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "概要編",
+        "text": "step1.md"
+      },
+      {
+        "title": "実践編",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "init-install.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "sample.sh", "target": "~/tutorial", "chmod": "+x"}
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "bash1804"
+  }
+}

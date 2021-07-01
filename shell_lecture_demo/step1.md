@@ -88,11 +88,13 @@
 - スクリプトの中でシェル変数をechoした結果を見てみましょう。
 
 `cat ./tutorial/var_echo.sh`{{execute}}
+
 `./tutorial/var_echo.sh`{{execute}}
 
 - VAR1シェル変数を環境変数化してみましょう。
 
 `export VAR1`{{execute}}
+
 `./tutorial/var_echo.sh`{{execute}}
 
 ## 講義資料p.48
@@ -100,13 +102,14 @@
 - コマンドの結果をgrepでフィルタしてみましょう。
 
 `ls -l ~/tutorial`{{execute}}
+
 `ls -l ~/tutorial | grep sample`{{execute}}
 
 ## 講義資料p.49
 
 - dateコマンドの結果を変数に格納してみましょう。
 
-``VAR=`date```{{execute}}
+`VAR=$(date)`{{execute}}
 
 - 変数に格納された結果を確認してみましょう。
 
@@ -117,16 +120,19 @@
 - dateコマンドの結果をファイルに書き出してみましょう。
 
 `date > output.log`{{execute}}
+
 `cat output.log`{{execute}}
 
 - 再度書き込みましょう。
 
 `date > output.log`{{execute}}
+
 `cat output.log`{{execute}}
 
 - 追記型で再度書き込みましょう。
 
 `date >> output.log`{{execute}}
+
 `cat output.log`{{execute}}
 
 ## 講義資料p.52
@@ -142,6 +148,7 @@
 - 標準出力と標準エラー出力両方をoutput.logに出力してみましょう。
 
 `./tutorial/stdout_stderror.sh > output.log 2>&1`{{execute}}
+
 `cat output.log`{{execute}}
 
 概要編の講義部分は以上で終了です。お疲れさまでした。

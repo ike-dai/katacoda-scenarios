@@ -48,4 +48,49 @@
 
 ## 講義資料p.71
 
- 
+- dateコマンドで1週間前の日付を出力してみましょう。
+    - TZ環境変数でタイムゾーンを指定して実行する例
+
+`TZ=Asia/Tokyo date +"%Y-%m-%d %H:%M:%S" --date "1 week ago"`{{execute}} 
+
+- findコマンドでtutorialフォルダ以下の.txtのファイルのみを検索してみましょう。
+
+`find ./tutorial -name "*.txt"`{{execute}}
+
+## 講義資料p.72
+
+- grepコマンドで./tutorialフォルダ配下のファイルの内、txtというキーワードを含まないものを出力してみましょう。
+
+
+`ls -l ./tutorial | grep -v txt`{{execute}}
+
+- curlコマンドでexample.comのトップページhtmlを出力してみましょう。
+
+`curl -XGET http://example.com`{{execute}}
+
+## 講義資料p.74
+
+- cronの定義を確認してみましょう。(現在ログインしているユーザ(root)のcron定義)
+
+`crontab -l`{{execute}}
+
+`cat /var/spool/cron/crontabs/root`{{execute}}
+
+- cronの共通の定義を確認してみましょう。
+
+`cat /etc/crontab`{{execute}}
+
+## 講義資料p.77
+
+- tutorial/var_echo.shを各種フラグをつけて実行してみましょう。
+
+`bash -u tutorial/var_echo.sh`{{execute}}
+
+`bash -v tutorial/var_echo.sh`{{execute}}
+
+`bash -x tutorial/var_echo.sh`{{execute}}
+
+
+実践編の講義部分は以上で終了です。お疲れさまでした。
+
+

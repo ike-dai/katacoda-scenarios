@@ -32,7 +32,7 @@
 
 - awkコマンドを試してみましょう。
 
-`echo "192.168.1.25" | awk -F ',' {printf "%s.%s\n", $1, $2}`{{execute}}
+`echo "192.168.1.25" | awk -F '.' '{printf "%s.%s\n", $1, $2}'`{{execute}}
 
 ## 講義資料p.70
 
